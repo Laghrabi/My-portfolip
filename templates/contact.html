@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Quizzes - Team</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+        <a href="quizzes.html" class="home-logo">
+            <span><img src="icons8-git-48.png" class="logo">Git Quizzes</span>
+        </a>
+        <nav class="navbar">
+            <ul id="menuList">
+                <li><a href="quizzes.html" id="home-link">Home</a></li>
+                <li><a href="about.html" id="about-link">About</a></li>
+                <li><a href="team.html" id="team-link">Team</a></li>
+                <li><a href="sources.html" id="contact-link">Sources</a></li>
+                <li><a href="contact.html" id="contact-link">Contact</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+            
+            
+        </nav>
+    </header>
+    <section id="us" class="us-section">
+    <div class="container">
+        <h1>Contact Us</h1><br>
+        <strong><p>Feel free to reach out to us for any inquiries or questions!</p></strong>
+        <form action="submit_contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+           <br><a href="ty.html" class="Submit-btn">Submit</a>
+        </form>
+    </div>
+    </section>
+
+<footer>
+    <div class="bottom-bar">
+        <p>&copy; 2024 Git Quizzes. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../questions.js"></script>
+<script src="../menuicon.js"></script>
+<script src="../startbutton.js"></script>
+<script src="https://kit.fontawesome.com/7ce1441864.js" crossorigin="anonymous"></script>
+</body>
+</html>
